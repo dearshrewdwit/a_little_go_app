@@ -2,7 +2,7 @@
 
 # 1: Web Clients
 
-In this section you're going to learn everything you need to know to write a web servers and clients in Go.
+In this section you're going to learn the basics to write a web servers and clients in Go.
 
 The `net/http` package provides a series of functions and types to help you sending HTTP requests.
 The most important types are:
@@ -38,7 +38,7 @@ func main() {
 [source code](examples/get.go)
 
 This program will send a GET HTTP request to the Go homepage and will print the status code of the response,
-unless something goes wrong in which case it will log the error and stop the exeuction of the program.
+unless something goes wrong in which case it will log the error and stop the execution of the program.
 
 Try changing the value of the URL to see what other codes you're able to get.
 Some ideas you could try:

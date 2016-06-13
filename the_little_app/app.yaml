@@ -1,0 +1,15 @@
+runtime: go                    # the runtime (python, java, go, php)
+api_version: go1               # the runtime version
+# application: craft-conf-go     # the project id
+
+handlers:
+# requests with the prefix /api/ are handled by the Go app.
+- url: /api/.*
+  script: _go_app
+# requests on the root path display index.html.
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+# otherwise we try to find the paths in the static directory..
+- url: /
+  static_dir: static

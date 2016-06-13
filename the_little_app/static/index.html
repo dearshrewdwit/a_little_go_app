@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Hello, App Engine</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Hi MAKERS!</h1>
+  <p>The backend says: <span id="message"></span></p>
+  <img alt="A Gopher Squad" src="gopher-2.jpg">
+  <script>
+	$(function() {
+		$('#message').load('/api/hello');
+	});
+	</script>
+</body>
+</html>
