@@ -7,13 +7,17 @@ So download the Google App Engine [SDK][1]!
 
 Make sure to add the folder to your path. Move the downloaded folder where you want to and then:
 
+ ```
  export PATH=path_to_go_appengine:$PATH
+ ```
 
  Mine looks like:
 
+ ```
  export GOPATH=$HOME/go
  export PATH=$PATH:$GOPATH/bin
  export PATH=$HOME/go_appengine:$PATH
+ ```
 
 Cool!
 
