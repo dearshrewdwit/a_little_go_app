@@ -1,11 +1,7 @@
 
 # A Little Go App
 
-## -1: Getting ready to Go
-
-First things first. Clone [this repository][8]!
-
-Then we need to [get Go][7].
+Now we need to [get Go][7].
 
 Now follow the instructions! (the essentials are here below)
 
@@ -131,7 +127,7 @@ If you don't have `goimports` installed in your machine you can easily install i
     $ go get golang.org/x/tools/cmd/goimports
 ```
 
-This will install the `goimports` binary in `$GOAPTH/bin`.
+This will install the `goimports` binary in `$GOPATH/bin`.
 It is basically the equivalent to fetching the code from GitHub and then running `go install`.
 
 You can now run `goimports` as a replacement of `gofmt`.
@@ -164,4 +160,3 @@ But hey, at least now you're ready to tackle the next [section][6].
 [5]: https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins
 [6]: ../Section1-HttpGet/README.md
 [7]: https://golang.org/doc/code.html
-[8]: https://github.com/dearshrewdwit/a_little_go_app
