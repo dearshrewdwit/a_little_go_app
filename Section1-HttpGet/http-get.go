@@ -1,15 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"log"
-	"net/http"
-)
-
+// step 1 - use http.Get to send a request and
+// print a response, handling the error
 func main() {
-	res, err := http.Get("http://www.makersacademy.com")
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(res.Status)
+
 }

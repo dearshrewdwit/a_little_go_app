@@ -25,5 +25,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, fmt.Sprintf("could not get google: %v", err), http.StatusInternalServerError)
 		return
 	}
-	fmt.Fprintf(w, "You guys are awesome! %s", res.Status)
+	fmt.Fprintf(w, "BOOM. You guys are %s!", res.Status)
 }

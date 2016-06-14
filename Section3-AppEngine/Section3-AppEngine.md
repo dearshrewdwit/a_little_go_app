@@ -1,26 +1,27 @@
-https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Go
+## Getting ready for success!
+We're gonna skip a whole bunch now in order to get a locally running server. Because:
+We need DOCS please.
+Why not?
 
-## Getting ready for success
+So download the Google App Engine [SDK][1]!
 
-What would happen if your "Hello, web" went viral? Would your simple binary
-handle the load? You would probably need to add some extra servers, which is
-probably a good idea just to have redundancy.
+Make sure to add the folder to your path. Move the downloaded folder where you want to and then:
 
-How do you that? Many solutions, but the simplest one is Google App Engine.
+ export PATH=path_to_go_appengine:$PATH
 
-<div>
-<img src="img/app-engine-logo.png" height=100px></img>
-<img src="img/plus.png" height=100px></img>
-<img src="img/gopher.png" height=100px></img>
-<img src="img/equals.png" height=100px></img>
-<img src="img/gaegopher.jpg" height=100px></img>
-</div>
+ Mine looks like:
 
-With Google App Engine you provide your code and Google is responsible for
+ export GOPATH=$HOME/go
+ export PATH=$PATH:$GOPATH/bin
+ export PATH=$HOME/go_appengine:$PATH
+
+Cool!
+
+With Google App Engine you provide your code and then Google is responsible for
 handling any amount of traffic you may get, making sure all servers are up
-so you don't need to worry about them. Check the
-[docs](https://cloud.google.com/appengine/docs) out for more info, this is a
-workshop after all, not a marketing document.
+so you don't need to worry about them.
+
+Check the [docs][2] out for more info!
 
 ## From Hello, web to Hello, App Engine
 
@@ -144,6 +145,8 @@ Try editing the code to change the message printed to the output. If you
 refresh your browser, you can see that your changes get displayed without
 having to restart the server.
 
+IF. BIG IF. We have managed to get this far, it's awesome! We have come along way in a short amount of time.
+
 ## Deploy to the App Engine servers
 
 Once you're happy with how your application looks you might want to share it
@@ -181,3 +184,6 @@ tell the world about it? No more localhost on your URLs!
 
 Or maybe it's a bit too early ... let's see if we can make the application look
 a bit better using HTML in addition to our Go code.
+
+[1]: https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Go
+[2]: https://cloud.google.com/appengine/docs
