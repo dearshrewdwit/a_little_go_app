@@ -153,13 +153,15 @@ But there are many more editors with Go support, you can find them [here][5].
 # Congratulations!
 
 You're done with ... set up. Well, we need to start somewhere!
-But hey, at least now you're ready to tackle [section 1][6].
+
+Before we move on. Let's write two quick go programs!
+But hey, at least now you're ready to tackle the next [section][6].
 
 [1]: https://tour.golang.org
 [2]: http://www.vim.org/
 [3]: https://github.com/fatih/vim-go
 [4]: https://www.visualstudio.com/en-us/products/code-vs.aspx
 [5]: https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins
-[6]: ../section01/README.md
+[6]: ../Section1-HttpGet/README.md
 [7]: https://golang.org/doc/code.html
 [8]: https://github.com/dearshrewdwit/a_little_go_app
