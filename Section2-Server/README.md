@@ -249,3 +249,7 @@ so if the request was `/hello/Francesc` the response should say `"Hello, Frances
 
 You just wrote your first HTTP server in Go! Isn't it awesome? Well, it doesn't
 do much yet but the best is to come.
+
+Let's move on to the next [section][1]!
+
+[1]: ../Section3-AppEngine/README.md

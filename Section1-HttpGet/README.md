@@ -46,3 +46,7 @@ Some ideas you could try:
 - https://golang.org/foo
 - http://thisurldoesntexist.com
 - https:/thisisnotaurl
+
+Let's move on to the next [section][1]!
+
+[1]: ../Section2-Server/README.md

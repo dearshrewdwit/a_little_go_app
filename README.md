@@ -3,4 +3,8 @@
 
 ## -1: Getting ready to Go
 
-First things first. Clone [this repository][8]!
+First things first. Clone this repository so you can follow along!
+
+Let's [start][1]!
+
+[1]: ../Section0-Setup/README.md
